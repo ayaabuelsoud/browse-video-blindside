@@ -21,7 +21,7 @@ export const videos = [
 
     {
         "id": 3,
-        "title": "Bowerd By Nature",
+        "title": "Powered By Nature",
         "thumbnail": "/images/3-img-NORWAY-PoweredbyNature.jpg",
         "description": "Powered By Nature - NORWAY",
         "category": "nature_sea",

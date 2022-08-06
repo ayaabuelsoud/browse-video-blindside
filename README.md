@@ -1,70 +1,41 @@
-# Getting Started with Create React App
+# BlindSide Internship Task Project. Aya Mohamed.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center" width="100%">
+    <img width="100%" src="./screenshots/blindside.jpg">
+</p>
+g
 
-## Available Scripts
+## Pages & Features
 
-In the project directory, you can run:
+- Login page to authenticate and login.
+- Register page to register new users.
+- Overview page to show all videos on the website. 
+- Video Item page
+    - We can show/hide comments (comments are shown by default)
+    - We can add new comments (new comments won't be stored)
+    - We can see the related videos in the right side section.
+        - The videos share the same category, we can see the category of each video in `src/data/videos.js`.
+        - There are 3 categories:
+            - `sport` it contains [`AB WORKOUT`,`Beginners HIIT Workout`] videos.
+            - `nature` it contains [`Nature Makes You Happy`,`Beauty of Nature - Egypt`] videos.
+            - `nature_sea` it contains [`Powered By Nature`,`New Zealand Nature`,`Beauty of Nature`] videos.
+- Overview & Video Item pages are protected by Authentication Middleware.
+    - We can register or use :
+        - userName: `admin`
+        - password: `admin`
+    - Accounts and logged in user is stored in `localStorage`.
 
-### `npm start`
+## Screennshots
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Login                         | Register                         | Overview                         | Video Item                       |
+:----------------------------:|:--------------------------------:|:--------------------------------:|:--------------------------------:|
+![](./screenshots/login.png)  |  ![](./screenshots/register.png) | ![](./screenshots/overview.png)  |![](./screenshots/video-item.png) |
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## Steps to run the application
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Clone the repo `git clone https://github.com/ayaabuelsoud/browse-video-blindside.git`
+- Open the folder of the repo `cd browse-video-blindside`
+- Install dependencies `npm install`
+- Run the app `npm start`
+- Browse the app on `http://localhost:3000/`
