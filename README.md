@@ -1,9 +1,9 @@
 # BlindSide Internship Task Project. Aya Mohamed.
 
 <p align="center" width="100%">
-    <img width="100%" src="./screenshots/blindside.jpg">
+    <img width="25%" src="./screenshots/blindside.jpg">
 </p>
-g
+
 
 ## Pages & Features
 
